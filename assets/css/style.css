@@ -1,0 +1,97 @@
+body {
+    background-image: url("../images/bg.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html {
+    cursor: url("../images/ig.cur"), auto;
+}
+
+h1 {
+    border: solid 5px red;
+    background: white;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right:10%;
+    padding: 15px;
+    opacity: 0.8;
+    
+}
+
+h2 {
+    font-family: 'Bangers';
+    color: red;
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+
+#image {
+    width: 80%;
+}
+
+img {
+    margin: 10px;
+    width: 60%;
+    height: 250px;
+}
+
+
+.sidebar {
+    padding: 5px;
+    position: relative;
+    border-top: solid red 5px;
+    margin-bottom: 5px;
+    font-family: 'Bangers';
+    font-size: 40px;
+}
+
+span {
+    border: solid yellow 2px;
+    padding-left: 3px;
+    padding-right:3px;
+    background-color: red; 
+    font-size: 20px;
+}
+
+.background {
+    background-image: url("../images/marvelbg.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container {
+    background-color: blue; opacity: .9;
+    margin-top: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5px;
+    text-align: center;
+    border: solid 3px red;
+}
+
+#currentword {
+    font-size: 50px;
+    font-family: 'Bangers';
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#scoreboard {
+    padding: 20px;
+}
+
+.span1 {
+    border: solid red 2px;
+    padding-left: 3px;
+    padding-right:3px;
+    background-color: red; 
+    font-size: 20px;
+    
+}

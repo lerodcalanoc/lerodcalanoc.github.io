@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MARVEL SUPER HEROES</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <body>
+        <!--HEADING-->
+        <div class="heading">
+            <h1><img id="image" src="./assets/images/marvellogo.jpeg"></h1>
+        </div>
+
+         <!--START BUTTON-->
+        <div class="background">
+            <div class="container">
+       
+            <h2> <style>
+                p {
+                  background: yellow;
+                }
+                </style>
+                <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+              </head>
+              <body>
+            <div class="text-center">
+              <button class="btn btn-danger btn-lg button">
+              <span1 class="fa fa-minus"></span1>CLICK HERE TO START!</button>
+              <br>
+              <br>
+              <p style="display: none">Press Any Key To Guess The Hero!</p>
+            
+            </div>
+
+            <script>
+              $( "button" ).click(function() {
+              $( "p" ).show( "slow" );({ height: "200px" });
+              });
+            </script>
+            
+            </h2>
+
+                <div>
+                    <img id="image1" src="./assets/images/marvel.gif">
+                </div>
+
+                <!--CURRENT WORD CONTAINER-->
+                <div>
+                    <h3 id="currentword">_ _ _ _ _</h3>
+                </div>
+                <div id="scoreboard">
+                    <!--Guesses Left Container-->
+                    <div class="sidebar">
+                        <h3>GUESSES REMAINING:
+                            <span id="guessesremaining"></span>
+                        </h3>
+                    </div>
+
+                    <!--Wrong Guesses container-->
+                    <div class="sidebar">
+                        <h3>WRONG LETTERS GUESSED:
+                            <span id="playerguesses"></span>
+                        </h3>
+                    </div>
+
+                    <!--Wins Counter Container-->
+                    <div class="sidebar">
+                        <h3>WINS:
+                            <span id="winstracker"></span>
+                        </h3>
+                    </div>
+                    <!--Loss Counter Container-->
+                    <div class="sidebar">
+                        <h3>LOSSES:
+                            <span id="losstracker"></span>
+                        </h3>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--AUDIO FILES-->
+        <div>
+            <!--blackpanther-->
+            <audio id="blackpanther">
+                <source src="./assets/audio/blackpanther.mp3" type="audio/mp3">
+            </audio>
+            <!--ironman-->
+            <audio id="ironman">
+                <source src="./assets/audio/ironman.mp3" type="audio/mp3">
+            </audio>
+            <!--deadpool-->
+            <audio id="deadpool">
+                <source src="./assets/audio/deadpool.mp3" type="audio/mp3">
+            </audio>
+            <!--spiderman-->
+            <audio id="spiderman">
+                <source src="./assets/audio/spiderman.mp3" type="audio/mp3">
+            </audio>
+            <!--wolverine-->
+            <audio id="wolverine">
+                <source src="./assets/audio/wolverine.mp3" type="audio/mp3">
+            </audio>
+            <!--fantasticfour-->
+            <audio id="fantasticfour">
+                <source src="./assets/audio/fantasticfour.mp3" type="audio/mp3">
+            </audio>
+            <!--captainamerica-->
+            <audio id="captainamerica">
+                <source src="./assets/audio/captainamerica.mp3" type="audio/mp3">
+            </audio>
+            <!--incrediblehulk-->
+            <audio id="incrediblehulk">
+                <source src="./assets/audio/incrediblehulk.mp3" type="audio/mp3">
+            </audio>
+            <!--tryagain-->
+            <audio id="tryagain">
+                <source src="./assets/audio/tryagain.mp3" type="audio/mp3">
+            </audio>
+            <!--marvel bg music-->
+            <audio id="marvel">
+                <source src="./assets/audio/marvel.mp3" type="audio/mp3">
+            </audio>
+        </div>
+
+    <!--script-->
+        <script src="assets/javascript/game.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="https://code.jquery.com/jquery.js"></script>
+
+    </body>
+
+</html>
